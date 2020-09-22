@@ -5,6 +5,7 @@
   <dependencies>
     <file>updater</file>
   </dependencies>
+  <source>https://github.com/nk915/test_updater/blob/master/app.zip</source>
   <packages>
     <package>
       <name>app</name>
