@@ -3,20 +3,22 @@
     <!-- https://github.com/NetSparkleUpdater/NetSparkle app cast -->
 	<channel>
         <title>NetSparkle Helloworld Test</title>
-        <link>https://218.145.246.28:1300/updater_test/appcast.xml</link>
+        <link>C:\Users\kng\Documents\GitHub\test_updater\file\appcast.xml</link>
         <description>Most recent changes with links to updates.</description> <!-- HTML 또는 Markdown의 업데이트에 대한 설명 --> 
-        <language>ko</language>
+        <language>en</language>
         <item>
             <title>Version 2.0 (1 new changes version)</title>
-            <sparkle:releaseNotesLink>   <!-- Release를 설명하는 마크다운 문서 지정 :  -->
-            https://218.145.246.28:1300/updater_test/ReleaseNote_test.md
+            <!-- <sparkle:releaseNotesLink>   Release를 설명하는 마크다운 문서 지정 :  -->
+            <!-- https://218.145.246.28:1300/updater_test/ReleaseNote_test.md -->
 				<!--	<description></description>: tag가 있으면 md말고 이게 대신한다. -->
 				<!-- sparkle:signature 문서 서명 필요 시 (디폴트 문서서명은 사용안함) -->
-            </sparkle:releaseNotesLink>
+            <!-- </sparkle:releaseNotesLink> -->
             <pubDate>2020-09-28 13:00:00 +0000</pubDate>
             <!-- <pubDate>Thu, 27 Oct 2016 10:30:00 +0000</pubDate> 업데이트 일시 -->
-            <enclosure url="https://218.145.246.28:1300/updater_test/Helloworld_1.0.exe"   
-                       sparkle:version="2.0"
+            <enclosure url="C:\Users\kng\Documents\GitHub\test_updater\file\Helloworld_1.0.exe"   
+                       sparkle:version="3.1"
+                       sparkle:shortVersionString="3"
+                       length="8416866"
                        sparkle:os="windows"
                        type="application/x-msdownload" 
                        sparkle:signature="GmRzLxF0aBh9L3lv6q5/zqAny/0NCADwfJFyzySadjkrgmnU6jLG1BLTntdK3iauSCaan5vfX8rwVlnKikSTAw=="/>
