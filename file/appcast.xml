@@ -3,7 +3,7 @@
     <!-- https://github.com/NetSparkleUpdater/NetSparkle app cast -->
 	<channel>
         <title>NetSparkle Helloworld Test</title>
-        <link>https://raw.githubusercontent.com/nk915/test_updater/netsparkle/file/appcast_test.xml</link>
+        <link>https://raw.githubusercontent.com/nk915/test_updater/netsparkle/file/appcast.xml</link>
         <description>Most recent changes with links to updates.</description> <!-- HTML 또는 Markdown의 업데이트에 대한 설명 --> 
         <language>ko</language>
         <item>
