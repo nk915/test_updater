@@ -19,7 +19,7 @@
                        sparkle:version="1.0"
                        sparkle:os="windows"
                        type="application/x-msdownload" 
-                       sparkle:signature="YrmuoSz+LoX+Fs/aCogLaNbpr9suREtweQKRrSgHDDSm/wM+PpK1AH8+AT4EFmDHM23Kx7ZxSb0LnG8MPM4GDA==" />
+                       sparkle:signature="GmRzLxF0aBh9L3lv6q5/zqAny/0NCADwfJFyzySadjkrgmnU6jLG1BLTntdK3iauSCaan5vfX8rwVlnKikSTAw=="/>
 					   <!-- url: 업데이트 파일 
 							sparkle:version: 업데이트 체크 버전
 							length: (선택사항) 업데이트 파일의 크기 (bytes)
