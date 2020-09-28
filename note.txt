@@ -1,0 +1,28 @@
+-- tomcat
+https://218.145.246.28:1300/updater_test/appcast.xml
+
+
+
+-- generate_appcast.exe
+C:\Users\kng\Documents\GitHub\NetSparkle\src\bin\Debug\NetSparkle.Tools.AppCastGenerator\netcoreapp3.1
+generate_appcast.exe --generate-signature C:\Users\kng\Documents\GitHub\test_updater\file\Helloworld_1.0.exe
+
+
+-- DSAHelper
+C:\Users\kng\Documents\GitHub\NetSparkle\bin\Debug\NetSparkle.Tools.DSAHelper\netcoreapp3.1
+
+
+-- public key
+C:\Users\kng\AppData\Local\netsparkle
+
+
+
+-- Test Project
+C:\Users\kng\Documents\GitHub\NetSparkle\src\NetSparkle.Samples.HandleEventsYourself
+
+
+
+-- Tomcat8
+/usr/local/tomcat8/webapps/ROOT
+
+
