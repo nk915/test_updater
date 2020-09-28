@@ -3,34 +3,31 @@
     <!-- https://github.com/NetSparkleUpdater/NetSparkle app cast -->
 	<channel>
         <title>NetSparkle Helloworld Test</title>
-        <link>https://netsparkleupdater.github.io/NetSparkle/files/sample-app/appcast.xml</link>
+        <link>https://raw.githubusercontent.com/nk915/test_updater/netsparkle/file/appcast_test.xml</link>
         <description>Most recent changes with links to updates.</description> <!-- HTML 또는 Markdown의 업데이트에 대한 설명 --> 
         <language>ko</language>
         <item>
             <title>Version 2.0 (1 new changes version)</title>
             <sparkle:releaseNotesLink>   <!-- Release를 설명하는 마크다운 문서 지정 :  -->
-            https://netsparkleupdater.github.io/NetSparkle/files/sample-app/2.0-release-notes.md
+            https://raw.githubusercontent.com/nk915/test_updater/netsparkle/file/ReleaseNote_test.md
 				<!--	<description></description>: tag가 있으면 md말고 이게 대신한다. -->
 				<!-- sparkle:signature 문서 서명 필요 시 (디폴트 문서서명은 사용안함) -->
             </sparkle:releaseNotesLink>
             <pubDate>2020-09-28 13:00:00 +0000</pubDate>
             <!-- <pubDate>Thu, 27 Oct 2016 10:30:00 +0000</pubDate> 업데이트 일시 -->
-            <enclosure url="https://netsparkleupdater.github.io/NetSparkle/files/sample-app/NetSparkleUpdate.exe"   
+            <enclosure url="https://github.com/nk915/test_updater/raw/netsparkle/file/Helloworld_1.0.exe"   
                        sparkle:version="1.0"
                        sparkle:os="windows"
-                       length="12288"
-                       type="application/octet-stream"
-                       sparkle:signature="NSG/eKz9BaTJrRDvKSwYEaOumYpPMtMYRq+vjsNlHqRGku/Ual3EoQ==" />  
-					   
+                       type="application/x-msdownload" 
+                       sparkle:signature="YrmuoSz+LoX+Fs/aCogLaNbpr9suREtweQKRrSgHDDSm/wM+PpK1AH8+AT4EFmDHM23Kx7ZxSb0LnG8MPM4GDA==" />
 					   <!-- url: 업데이트 파일 
 							sparkle:version: 업데이트 체크 버전
-							length: (선택사항) 업데이트 파일의 크기
+							length: (선택사항) 업데이트 파일의 크기 (bytes)
 							type: 무시됨
 							sparkle:signature: DSA 서명 시그니처
 							sparkle:criticalUpdate : (선택사항) true or 1을 하면 중요 업데이트로 표시됨
 							sparkle:os : 앱 캐스트 항목의 운영체제 (Windows: win or windows, macOS: macos or osx, Linux: linux)
 					   -->
-					   
         </item>
     </channel>
 </rss>
